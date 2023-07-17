@@ -16,8 +16,6 @@ from streamlit_option_menu import option_menu
 from geopy.geocoders import Nominatim
 from haversine import haversine
 from urllib.request import urlopen
-from IPython.display import HTML
-from urllib.request import urlopen
 import plotly.express as px
 # 문자 보내는 패키지
 # from twilio.rest import Client
