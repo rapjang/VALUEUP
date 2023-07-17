@@ -14,7 +14,6 @@ import requests
 from streamlit_folium import st_folium
 from streamlit_option_menu import option_menu
 from geopy.geocoders import Nominatim
-from keras.models import load_model
 from haversine import haversine
 from urllib.request import urlopen
 from IPython.display import HTML
