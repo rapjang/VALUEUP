@@ -6,6 +6,7 @@ import streamlit as st
 import plotly.express as px
 import datetime
 import joblib
+import pickle
 import folium
 import branca
 import ssl
