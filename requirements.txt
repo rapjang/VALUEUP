@@ -16,7 +16,7 @@ geopandas
 geopy
 haversine
 xgboost
-
+scikit-learn
 
 
 
