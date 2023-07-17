@@ -13,6 +13,10 @@ shapely
 pyproj
 rtree
 geopandas
+geopy
+haversine
+xgboost
+
 
 
 
