@@ -128,14 +128,14 @@ def kakao_road(patient_point, destination_point):
 
 def send_message(special_m, name, distance):
     
-    account_sid = 'AC0aafae7636d7f4b0b7198e16e8bbf62d'
-    auth_token = '8e86ca744b46c61490b7e1375462b680'
+    account_sid = ''
+    auth_token = ''
     client = Client(account_sid, auth_token)
 
     message = client.messages.create(
         body=f"119 서비스 입니다 {special_m} 대응 위치는 {name} 이며 거리는 {distance}입니다.",
-        from_='+16203028741',
-        to='+821053254261')
+        from_='',
+        to='')
     
     return message.sid
 
