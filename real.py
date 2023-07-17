@@ -9,6 +9,7 @@ import joblib
 import pickle
 import folium
 import branca
+import sklearn
 import ssl
 import os
 import requests
