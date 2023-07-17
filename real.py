@@ -17,6 +17,7 @@ from streamlit_option_menu import option_menu
 from geopy.geocoders import Nominatim
 from haversine import haversine
 from urllib.request import urlopen
+import xgboost
 # 문자 보내는 패키지
 # from twilio.rest import Client
 import geopandas as gpd
