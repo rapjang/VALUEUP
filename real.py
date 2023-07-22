@@ -108,7 +108,7 @@ def find_hospital(special_m, lati, long):
 # 카카오모빌리티 최단경로 api 호출
 def kakao_road(patient_point, destination_point):
     url = 'https://apis-navi.kakaomobility.com/v1/directions?'
-    key = '2c49a96f7c94b5f50fefab8ee802106a'
+    key = ''
 
     headers = {
         'Authorization': 'KakaoAK ' + os.getenv('REST_API_KEY', key),
